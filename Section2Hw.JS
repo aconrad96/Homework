@@ -9,5 +9,7 @@ console.log(pizzaInfo);
 
 if (numberOfToppings <= 10) {
 console.log("Quality, not quantity.")
+} else {
+  console.log("A whole lot of pizza.")
 }
 
