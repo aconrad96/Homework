@@ -12,4 +12,3 @@ console.log("Quality, not quantity.")
 } else {
   console.log("A whole lot of pizza.")
 }
-
