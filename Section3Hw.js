@@ -34,38 +34,3 @@ function servePizza()
 
 
 // 6
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-function example(param1, param2, ...rest){
-let array = [param1, param2, rest]
-return array;
-
-}
-
-example('Long', 'Short', 'fat', 'dog', 'cat');
-
-
-function examObj(param1, param2, ...param3){
-let object = {
-  ObjA: param1[0],
-  ObjB: param2[1],
-  objC: param3[2],
-};
-return console.log `I found a cool ${object.objB}`;
-}
