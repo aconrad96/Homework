@@ -34,7 +34,7 @@ function preparePizza([orderSize, orderCrust, orderTopping]) {
   };
 
 }
-let cookingPizza = preparePizza([orderSize, orderCrust, orderTopping])
+let cookingPizza = preparePizza(pizzaOrder)
 
 
 //5
@@ -47,19 +47,11 @@ console.log(`${orderUp}. Enjoy!`);
 
 return pizza;
 }
-servePizza
+servePizza(cookingPizza);
 
+ //6
+greetingCustomer();
 
+const customerPizza = servePizza(preparePizza(getPizzaOrder("medium", "thick", "Pepperoni", "Sausage", "Bacon", "Ham")));
 
-//need to iterate through array
-//js does not know that ${}+${} is a template literal
-// definently overthinking
-// realized was overlooking the assign variable
-//orange braces confuses me I am assuming because it is inside of the scope
-//on number 3 end
-//not using operation correctly
-//+= concatenate
-// #3 return Params
-//use += with template literals and for let
-//#4 could have pizza or anything in the array
-//for of loop iterates through an array
+console.log(customerPizza)
