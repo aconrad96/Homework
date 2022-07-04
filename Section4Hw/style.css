@@ -1,0 +1,16 @@
+body {
+  color: white;
+  background-color: rgb(25,24,24);
+}
+
+#firstList {
+border: 2px solid white;
+}
+
+.lists {
+  color: lightblue;
+}
+
+.talkingPoints > li {
+  color: green
+}
