@@ -39,7 +39,7 @@ let cookingPizza = preparePizza(pizzaOrder)
 
 //5
 function servePizza(pizza) {
-  let orderUp = `Order up! Here's your ${pizza.size} ${pizza.crust} crust pizza with `;
+  let orderUp = `Ordre} ${pizza.crust} crust pizza with `;
   for (let topping of pizza.toppings) {
     orderUp += `${topping}, `;
   }
